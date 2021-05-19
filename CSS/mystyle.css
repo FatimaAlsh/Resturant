@@ -3,7 +3,7 @@ body{
     color: white;
     background-color:#61122f;
     font-family: 'Oxygen', sans-serif;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 #header-nav{
@@ -13,11 +13,14 @@ body{
 }
 
 #log-img{
-background: url('../images/restaurant-logo_large.png') ;
+background: url('../images/restaurant-logo_large.png') no-repeat ;
 width:150px;
 height:150px;
 margin: 10px 15px 10px 0; 
 }
+.navbar-brand {
+    padding-top: 25px;
+  }
 
 .navbar-brand h1{
     text-transform:uppercase;
