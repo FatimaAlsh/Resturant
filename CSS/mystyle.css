@@ -13,7 +13,7 @@ body{
 }
 
 #log-img{
-background: url('../images/restaurant-logo_large.png');
+background: url('../images/restaurant-logo_large.png') ;
 width:150px;
 height:150px;
 margin: 10px 15px 10px 0; 
@@ -52,11 +52,20 @@ text-align: right;
 padding-right: 15px;;
 color: darkred;
 }
-
+.navbar-brand p { /* Kosher cert */
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+  }
+  .navbar-brand p span { /* Star-K */
+    vertical-align: middle;
+  }
 /*styling the button */
 .navbar-header button.navar-toggle .navbar-header .icon-bar{
     border: 1px solid #61122f;
 }
 .navbar-header button.navar-toggle {
     clear:both;
+    margin-top: -30px;
 }
