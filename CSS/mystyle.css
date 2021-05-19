@@ -1,6 +1,27 @@
 body{
     font-size: 16px;
-    font: white;
-    background-color:darkslategrey;
+    color: white;
+    background-color:gray;
     font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav{
+    background-color: indianred;
+    border-radius: 0;
+    border:0;
+}
+
+#log-img{
+background: url('../images/restaurant-logo_large.png');
+width:150px;
+height:150px;
+margin: 10px 15px 10px 0; 
+}
+
+.navbar-brand h1{
+    text-transform:uppercase;
+    color:lightgray;
+}
+.navbar-brand a:hover , .navbar-brand a:focus{
+    text-decoration: none;
 }
