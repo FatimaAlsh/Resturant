@@ -12,11 +12,12 @@ body{
     border:0;
 }
 
-#logo-img{
+#log-img {
 background: url('../images/restaurant-logo_large.png') no-repeat ;
 width:150px;
 height:150px;
 margin: 10px 15px 10px 0; 
+border: 1px black;
 }
 .navbar-brand {
     padding-top: 25px;
@@ -96,8 +97,10 @@ color: darkred;
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
-  #logo-img {
-    background: url('../images/restaurant-logo_medium.png') no-repeat;
+  #log-img {
+    border: 10px;
+   background-color:aqua;
+    background :url('../images/restaurant-logo_medium.png') no-repeat;
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
@@ -107,8 +110,7 @@ color: darkred;
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
-}
+   }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
