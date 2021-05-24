@@ -92,7 +92,16 @@ body {
   overflow: hidden;
   
 }
+.a-category { /* menu.html*/
+  position: relative;
+  border: 2px solid #3F0C1F;
+  width:200px;
+  height:200px;
+  margin: 0 auto 15px;
+  overflow: hidden;
 
+
+}
 #menu {
 background: url('../images/menu-tile.jpg');
 background-position: center;
@@ -104,7 +113,7 @@ background-position: center;
 }
 
 
-#menu span, #specials span , #map span{
+#menu span, #specials span , #map span, .a-category span{
   width: 100%;
   position:absolute;
   bottom:0;
@@ -112,7 +121,6 @@ background-position: center;
   text-align: center;
   font-size:1.6em;
   text-transform:uppercase;
-  
   background-color: #000;
   color:#fff;
   opacity:0.8;
@@ -121,7 +129,7 @@ background-position: center;
 
   
 
-#menu:hover, #specials:hover , #map:hover{
+#menu:hover, #specials:hover , #map:hover, .a-category:hover{
   box-shadow: 0 1px 0 5px darkgrey;
 }
 
@@ -219,6 +227,18 @@ border: 2px solid #3f0c1f;
 .panel-footer section hr {/*horisintal line */
 width:50%;
 }
+}/**End of extra small device**/ 
+
+@media(max-width:447px){
+  .col-xxs-12{
+    width:100%;
+    position:relative;
+    min-height:1px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    float:left;
+  }
+  
 }
 .panel-footer {
   background-color:darkslategray;
@@ -229,4 +249,14 @@ width:50%;
 }
 #testimnoials{
   font-style:italic;
+}
+.menu-photo-item{
+position:relative;
+}
+.menu-photo-item div{
+  position:absolute;
+  bottom:0;
+  right:0;
+  background-color: darkslategrey;
+  text-align: center;
 }
